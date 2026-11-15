@@ -399,26 +399,6 @@ def verificar_fim_de_jogo(linha, coluna):
         janela.after(1200, lambda: mostrar_tela_fim(True))
 
 
-# Limpa as tabelas e os botões para uma nova partida. 
-def reiniciar_jogo():
-
-    global botoes
-
-    criar_tabuleiro()
-
-    for linha in range(LINHAS):
-        for coluna in range(COLUNAS):
-
-            botoes[linha][coluna].config(
-                text="",
-                state="normal",
-                relief=tk.RAISED,
-                bg="#d9d9d9"
-            )
-            atualizar_contador()
-            mostrar_tempo()
-
-
 # CRONÔMETRO
 
 # Converte segundos para o formato 00:00. 
