@@ -575,7 +575,7 @@ def carregar_recorde_internet(dificuldade):
         return None
 
 
-# Converte um recorde com decimais para o formato 00:03.2. Serve para mostrar o recorde da internet.
+# Converte um recorde com decimais para o formato 00:03.2. 
 def formatar_recorde(valor):
 
     minutos = int(valor // 60)
