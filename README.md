@@ -133,3 +133,12 @@ Desenvolver um jogo funcional de Campo Minado, aplicando conceitos de lógica de
 
 O projeto também busca integrar conhecimentos de programação Python em uma aplicação interativa, com armazenamento e comparação de resultados.
 
+## 👥 Créditos
+
+Este projeto foi desenvolvido em colaboração por:
+
+- **Tais Souza**: [@TaisSouz23](https://github.com/TaisSouz23)
+- **Raymond Lima**: [@RaymondLima](https://github.com/RaymondLima)
+
+O projeto foi desenvolvido em conjunto, com colaboração de ambos no desenvolvimento e na implementação das funcionalidades.
+
